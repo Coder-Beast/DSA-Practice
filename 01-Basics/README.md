@@ -1,0 +1,2 @@
+This folder is for "Must do Pattern Problems before starting DSA" section of takeUforward(striver) 
+Link:[Clickable Text] (https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa?mode=track&sheet=a2z-dsa)

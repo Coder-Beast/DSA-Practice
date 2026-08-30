@@ -1,3 +1,6 @@
+//Inverted Star Pyramid
+//Problem Link:https://takeuforward.org/pattern/pattern-8-inverted-star-pyramid
+
 class Pattern08{
     public static void main(String[] args) {
          int n =5;

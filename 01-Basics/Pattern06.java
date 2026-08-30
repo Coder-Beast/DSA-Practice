@@ -1,3 +1,5 @@
+// Inverted Numbered Right Pyramid
+//Problem Link: https://takeuforward.org/pattern/pattern-5-inverted-right-pyramid
 class Pattern06{
     public static void main(String[] args) {
          int n = 5;
@@ -5,7 +7,7 @@ class Pattern06{
             for(int j = i ; j<= n ; j++){
                 System.out.print(j+" ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

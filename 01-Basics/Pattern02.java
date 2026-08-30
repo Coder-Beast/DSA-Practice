@@ -1,3 +1,5 @@
+//Right-Angled Triangle Pattern
+//Problem Link: https://takeuforward.org/pattern/pattern-2-right-angled-triangle-pattern
 class Pattern02 {
     public static void main(String[] args) {
          int n = 5;
@@ -5,7 +7,7 @@ class Pattern02 {
             for(int j = 0 ; j<= i ; j++){
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

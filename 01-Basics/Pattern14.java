@@ -8,7 +8,7 @@ import static java.util.Map.entry;
 class Pattern14{
     
 
-    static void pat13optimized(int n){
+    static void pat14optimized(int n){
         for(int i = 0 ; i<n; i++){
             for(char c = 'A'; c <='A' + i; c++){
                 System.out.print(c + " ");
@@ -18,7 +18,7 @@ class Pattern14{
     }
 
     // i dint knew java could do this automatically
-    static void pat13(int n){
+    static void pat14(int n){
         Map<Integer,Character> alphaNumericMap = Map.ofEntries(
             entry(1,'A'),
             entry(2,'B'),
@@ -38,6 +38,6 @@ class Pattern14{
     }
     public static void main(String[] args) {
         int n = 6;
-        pat13optimized(n);
+        pat14optimized(n);
     }
 }

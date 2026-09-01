@@ -6,6 +6,43 @@ import java.util.Deque;
 
 class Pattern19{
     
+    static void pat19(int n){
+
+        //upper half
+        int spaceLength = 0;
+        for (int i = 0; i < n; i++) {
+            
+            for (int j = 0; j < n-i; j++) {
+                System.out.print("*");
+            }
+            for(int j = 0; j<spaceLength; j++){
+                System.out.print(" ");
+            }
+            for (int j = 0; j < n-i; j++) {
+                System.out.print("*");
+            }
+            spaceLength +=2;
+            System.out.println();
+        }
+        //Lower half
+        spaceLength = 2*n-2;
+        for (int i = 1; i <= n; i++) {
+            
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            for(int j = 0; j<spaceLength; j++){
+                System.out.print(" ");
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            spaceLength -=2;
+            System.out.println();
+
+        }
+    }
+
     // this approach is based on using stack to print out the 2nd half the pattern using stack.
     static void pat19Stack(int n){
          int gap=0;
@@ -86,11 +123,12 @@ class Pattern19{
             System.out.println();
         }
     }
-
+    
     
     public static void main(String[] args) {
         int n = 6;
         //pat19Partial(n);
-        pat19Stack(n);
+        //pat19Stack(n);
+        pat19(n);
     }
 }

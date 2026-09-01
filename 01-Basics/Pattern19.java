@@ -9,36 +9,38 @@ class Pattern19{
     // this approach is based on using stack to print out the 2nd half the pattern using stack.
     static void pat19Stack(int n){
          int gap=0;
-        int  b = n;
+        int  starsPerHalf = n;
         Deque<String> upperStack = new ArrayDeque<>();
         
         for (int i = 1; i < n*2; i++) {
             if(i <= n ){
                 
                 StringBuilder curOutStrB =new StringBuilder(); 
-                for(int j = 1; j<= b;j++){
-                    
-                    System.out.print("*");
-                    curOutStrB.append("*");
+                char outCh;
+                for(int j = 1; j<= starsPerHalf;j++){
+                    outCh = '*';
+                    System.out.print(outCh);
+                    curOutStrB.append(outCh);
                 }
                 for(int j = 0; j< gap;j++){
-                    System.out.print(" ");
-                    curOutStrB.append(" ");
+                    outCh = ' ';
+                    System.out.print(outCh);
+                    curOutStrB.append(outCh);
                 }
-                for(int j = 1; j<= b;j++){
-                    System.out.print("*");
-                    curOutStrB.append("*");
+                for(int j = 1; j<= starsPerHalf;j++){
+                    outCh = '*';
+                    System.out.print(outCh);
+                    curOutStrB.append(outCh);
                 }
                     gap+=2;
-                    b-=1;
+                    starsPerHalf-=1;
                     curOutStrB.append("\n");
                 upperStack.push(curOutStrB.toString());
                 System.out.println();
             
             }else{
-                for (int j = 0; j < upperStack.size(); j++) 
-                {
-                    System.out.print( upperStack.pop());
+                while (!upperStack.isEmpty()) {
+                System.out.print(upperStack.pop());
                 }
             }
             

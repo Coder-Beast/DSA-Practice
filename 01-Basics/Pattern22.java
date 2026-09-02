@@ -4,39 +4,27 @@ class Pattern22{
 
 
 
-    //#region my first attempt
+    
     static void pat22(int n){
-        int width = 2*n-1;
-        for(int i = 0;i<width;i++){
-            int limit = 0;
-            int d = n+1;
-            
+       for (int i = 0; i < 2*n-1; i++) {
+           for (int j = 0; j < 2*n-1; j++) {
+               int top = i;
+               int left = j;
+               int bottom = (2*n-2) -i;
+               int right = (2*n-2) - j;
 
-            if(i<n) limit = n-i;
-            else limit++;
+               int dept = Math.min(Math.min(top, bottom),Math.min(left, right) );
 
-            for(int j = 0; j<width;j++){
-                
-                
-                if(d > limit && j<n ){
-                        d--;
-                }
-                else if( j>= n && (i>=j || (j+i)>= width)  ){
-                    d++;
-                }
-                System.out.print(d);
-
-                
-                
-                
-            }
-            System.out.println();
-        }
+               System.out.print((n-dept) + " ");
+           }
+           System.out.println();
+       }
+        
     }
     
     
    
-    //#endregion
+    
     
     
     public static void main(String[] args) {

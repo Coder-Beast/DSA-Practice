@@ -1,3 +1,4 @@
+package Patterns;
 //Alpha-Ramp Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-16-alpha-ramp-pattern
 

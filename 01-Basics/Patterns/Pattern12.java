@@ -1,3 +1,4 @@
+package Patterns;
 //Number Crown Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-12-number-crown-pattern
 class Pattern12{

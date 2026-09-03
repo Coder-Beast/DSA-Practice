@@ -1,3 +1,4 @@
+package Patterns;
 //Rectangular Star Pattern
 //Problem Link: https://takeuforward.org/pattern/pattern-1-rectangular-star-pattern
 class Pattern01 {

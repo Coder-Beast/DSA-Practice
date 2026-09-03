@@ -1,3 +1,4 @@
+package Patterns;
 //Alpha-Triangle Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-18-alpha-triangle-pattern
 

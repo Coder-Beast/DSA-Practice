@@ -1,3 +1,4 @@
+package Patterns;
 //Alpha-Hill Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-17-alpha-hill-pattern
 

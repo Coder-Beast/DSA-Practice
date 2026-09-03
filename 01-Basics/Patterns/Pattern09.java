@@ -1,3 +1,4 @@
+package Patterns;
  
 //Diamond Star Pattern
 //Problem Link:https://takeuforward.org/pattern/pattern-9-diamond-star-pattern

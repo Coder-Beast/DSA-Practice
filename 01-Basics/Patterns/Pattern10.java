@@ -1,3 +1,4 @@
+package Patterns;
 //Half Diamond Star Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-10-half-diamond-star-pattern
 class Pattern10{

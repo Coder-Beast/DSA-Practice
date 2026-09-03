@@ -1,3 +1,4 @@
+package Patterns;
 //Binary Number Triangle Pattern 
 //Problem Link : https://takeuforward.org/pattern/pattern-11-binary-number-triangle-pattern
 class Pattern11{

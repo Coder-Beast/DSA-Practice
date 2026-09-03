@@ -1,3 +1,4 @@
+package Patterns;
 //Star Pyramid
 //Problem Link: https://takeuforward.org/pattern/pattern-7-star-pyramid
 class Pattern07{

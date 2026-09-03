@@ -1,3 +1,4 @@
+package Patterns;
 //Inverted Right Pyramid
 //Problem Link:https://takeuforward.org/pattern/pattern-5-inverted-right-pyramid
 

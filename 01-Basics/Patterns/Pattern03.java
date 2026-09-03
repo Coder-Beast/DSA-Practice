@@ -1,3 +1,4 @@
+package Patterns;
 //Right-Angled Number Pyramid
 //Problem Link: https://takeuforward.org/pattern/pattern-3-right-angled-number-pyramid
 

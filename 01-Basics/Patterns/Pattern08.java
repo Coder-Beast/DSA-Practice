@@ -1,3 +1,4 @@
+package Patterns;
 //Inverted Star Pyramid
 //Problem Link:https://takeuforward.org/pattern/pattern-8-inverted-star-pyramid
 

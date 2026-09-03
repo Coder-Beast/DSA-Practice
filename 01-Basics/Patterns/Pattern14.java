@@ -1,3 +1,4 @@
+package Patterns;
 //Increasing Letter Triangle Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-14-increasing-letter-triangle-pattern
 

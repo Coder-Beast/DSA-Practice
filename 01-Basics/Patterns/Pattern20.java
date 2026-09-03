@@ -1,3 +1,4 @@
+package Patterns;
 //Symmetric-Butterfly Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-20-symmetric-butterfly-pattern
 

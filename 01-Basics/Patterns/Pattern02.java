@@ -1,3 +1,4 @@
+package Patterns;
 //Right-Angled Triangle Pattern
 //Problem Link: https://takeuforward.org/pattern/pattern-2-right-angled-triangle-pattern
 class Pattern02 {

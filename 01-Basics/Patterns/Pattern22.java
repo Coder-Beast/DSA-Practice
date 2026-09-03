@@ -1,3 +1,4 @@
+package Patterns;
 //Hollow Rectangle Pattern
 //Problem Link : https://takeuforward.org/pattern/pattern-21-hollow-rectangle-pattern
 class Pattern22{

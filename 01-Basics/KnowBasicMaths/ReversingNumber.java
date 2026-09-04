@@ -17,7 +17,7 @@ public class ReversingNumber{
     }
     
     public static void main(String[] args) {
-        int n = 123;
+        int n = 10400;
         System.out.println("N:" + n);
         System.out.println("Reverse Number: " +reverseNumber(n)); 
     }
